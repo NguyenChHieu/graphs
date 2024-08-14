@@ -78,16 +78,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aj6CpD3JHdMNbLfAdznn-18" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="680" y="480" width="270" height="270" as="geometry" />
+          <mxGeometry x="680" y="540" width="270" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="aj6CpD3JHdMNbLfAdznn-19" value="&lt;div&gt;- customer: Customer&lt;/div&gt;&lt;div&gt;- orderID: int&lt;/div&gt;- items&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;OrderItem&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- paymentMethod: PaymentMethod&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;payment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Date: Date&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aj6CpD3JHdMNbLfAdznn-18" vertex="1">
-          <mxGeometry y="26" width="270" height="94" as="geometry" />
+        <mxCell id="aj6CpD3JHdMNbLfAdznn-19" value="&lt;div&gt;- customer: Customer&lt;/div&gt;&lt;div&gt;- orderID: int&lt;/div&gt;- items&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;OrderItem&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aj6CpD3JHdMNbLfAdznn-18" vertex="1">
+          <mxGeometry y="26" width="270" height="54" as="geometry" />
         </mxCell>
         <mxCell id="aj6CpD3JHdMNbLfAdznn-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="aj6CpD3JHdMNbLfAdznn-18" vertex="1">
-          <mxGeometry y="120" width="270" height="8" as="geometry" />
+          <mxGeometry y="80" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="aj6CpD3JHdMNbLfAdznn-21" value="+ addItem(OrderItem item,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int quantity)&lt;/div&gt;&lt;div&gt;+removeItem(&lt;span style=&quot;background-color: initial;&quot;&gt;OrderItem item,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int quantity)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updatePaymentDate()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getPaymentDate(): Date&lt;/div&gt;&lt;div&gt;+ getCustomer(): Customer&lt;/div&gt;&lt;div&gt;+ getOrderDetails(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aj6CpD3JHdMNbLfAdznn-18" vertex="1">
-          <mxGeometry y="128" width="270" height="142" as="geometry" />
+        <mxCell id="aj6CpD3JHdMNbLfAdznn-21" value="+ addItem(OrderItem item,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int quantity)&lt;/div&gt;&lt;div&gt;+removeItem(&lt;span style=&quot;background-color: initial;&quot;&gt;OrderItem item,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int quantity)&lt;/div&gt;&lt;div&gt;+ getItems():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;OrderItem&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCustomer(): Customer&lt;/div&gt;&lt;div&gt;+ getOrderID: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aj6CpD3JHdMNbLfAdznn-18" vertex="1">
+          <mxGeometry y="88" width="270" height="110" as="geometry" />
         </mxCell>
         <mxCell id="aj6CpD3JHdMNbLfAdznn-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PaymentMethod&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ performPayment(double amount):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getPaymentDetails():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getPaymentDate(): Date&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1109" y="150" width="240" height="90" as="geometry" />
@@ -182,16 +182,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Plu0eXhxK-tlDUZKbDz-0" value="OrderCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="560" width="200" height="100" as="geometry" />
+          <mxGeometry x="1080" y="540" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-Plu0eXhxK-tlDUZKbDz-1" value="- order: Order&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- totalAmount: double&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-0">
-          <mxGeometry y="26" width="200" height="44" as="geometry" />
+          <mxGeometry y="26" width="200" height="34" as="geometry" />
         </mxCell>
         <mxCell id="-Plu0eXhxK-tlDUZKbDz-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-0">
-          <mxGeometry y="70" width="200" height="8" as="geometry" />
+          <mxGeometry y="60" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="-Plu0eXhxK-tlDUZKbDz-3" value="&lt;div&gt;+ calculateTotalAmount(): double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-0">
-          <mxGeometry y="78" width="200" height="22" as="geometry" />
+          <mxGeometry y="68" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-Plu0eXhxK-tlDUZKbDz-4" value="OrderPayment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="650" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-Plu0eXhxK-tlDUZKbDz-5" value="- order: Order&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- paymentMethod: PaymentMethod&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;payment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Date: Date&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-4">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-Plu0eXhxK-tlDUZKbDz-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-4">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-Plu0eXhxK-tlDUZKbDz-7" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updatePaymentDate()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getPaymentDate(): Date&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-Plu0eXhxK-tlDUZKbDz-4">
+          <mxGeometry y="88" width="200" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
