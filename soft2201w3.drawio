@@ -235,7 +235,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UnsKQkhjMUQGOkxAY29f-36" value="ConcreteOrderPayment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1225" y="1060" width="220" height="90" as="geometry" />
+          <mxGeometry x="1225" y="1140" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UnsKQkhjMUQGOkxAY29f-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UnsKQkhjMUQGOkxAY29f-36">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
@@ -316,8 +316,11 @@
         <mxCell id="UnsKQkhjMUQGOkxAY29f-67" value="calculate&lt;div&gt;total&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1480" y="930" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UnsKQkhjMUQGOkxAY29f-69" value="G" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="770" width="30" height="30" as="geometry" />
+        <mxCell id="UnsKQkhjMUQGOkxAY29f-69" value="get payment results" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="770" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UnsKQkhjMUQGOkxAY29f-70" value="get order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="955" y="810" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
