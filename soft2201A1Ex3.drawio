@@ -4,17 +4,14 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="k3yKtcVjdH3FUmCwJc7V-0" value="ConfigLoader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="200" width="320" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="k3yKtcVjdH3FUmCwJc7V-1" value="+ field" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k3yKtcVjdH3FUmCwJc7V-0" vertex="1">
-          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-0" value="&lt;div&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/div&gt;ConfigLoader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="200" width="320" height="88" as="geometry" />
         </mxCell>
         <mxCell id="k3yKtcVjdH3FUmCwJc7V-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="k3yKtcVjdH3FUmCwJc7V-0" vertex="1">
-          <mxGeometry y="52" width="320" height="8" as="geometry" />
+          <mxGeometry y="40" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="k3yKtcVjdH3FUmCwJc7V-3" value="+ parseJSONObject(String configFilePath): JSONObject&lt;div&gt;- validateJSONFileEntities(String content): JSONObject&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k3yKtcVjdH3FUmCwJc7V-0" vertex="1">
-          <mxGeometry y="60" width="320" height="60" as="geometry" />
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-3" value="+ &lt;u&gt;parseJSONObject(String configFilePath): JSONObject&lt;/u&gt;&lt;div&gt;- &lt;u&gt;validateJSONFileEntities(String content): JSONObject&lt;/u&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k3yKtcVjdH3FUmCwJc7V-0" vertex="1">
+          <mxGeometry y="48" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k3yKtcVjdH3FUmCwJc7V-8" value="Level" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="200" width="390" height="240" as="geometry" />
@@ -63,6 +60,30 @@
         </mxCell>
         <mxCell id="k3yKtcVjdH3FUmCwJc7V-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k3yKtcVjdH3FUmCwJc7V-20" vertex="1">
           <mxGeometry y="60" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-0" value="GameManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="510" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-1" value="- levels: List&amp;lt;Level&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-0">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-0">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-3" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-0">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-8" value="ConfigExtractor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="320" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-8">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-8">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rw3Is0due_I-UnfVZc5g-11" value="+ extractFilePath(JSONObject obj): String&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rw3Is0due_I-UnfVZc5g-8">
+          <mxGeometry y="60" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
