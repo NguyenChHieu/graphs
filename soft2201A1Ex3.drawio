@@ -16,6 +16,30 @@
         <mxCell id="k3yKtcVjdH3FUmCwJc7V-3" value="+ loadConfig(String fileName)&lt;div&gt;+&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-0">
           <mxGeometry y="60" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-8" value="Level" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="200" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-9" value="&lt;div&gt;- levelNumber: int&lt;/div&gt;- pacmanSpeed: double&lt;div&gt;- ghostSpeed: HashMap&amp;lt;String, Double&amp;gt;&lt;br&gt;&lt;div&gt;- modeLengths: HashMap&amp;lt;String, Double&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-8">
+          <mxGeometry y="26" width="310" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-8">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-11" value="+ getLevelNumber(): int&lt;div&gt;+ getPacmanSpeed(): double&lt;/div&gt;&lt;div&gt;+ getGhostSpeedInModes(): HashMap&amp;lt;String, Double&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ get&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-8">
+          <mxGeometry y="98" width="310" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-12" value="&lt;i&gt;GameEntity&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="400" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-13" value="- x: int&lt;div&gt;- y: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-12">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-12">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k3yKtcVjdH3FUmCwJc7V-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k3yKtcVjdH3FUmCwJc7V-12">
+          <mxGeometry y="68" width="160" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
