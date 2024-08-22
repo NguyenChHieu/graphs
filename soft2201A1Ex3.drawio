@@ -62,7 +62,7 @@
           <mxGeometry y="108" width="280" height="72" as="geometry" />
         </mxCell>
         <mxCell id="rw3Is0due_I-UnfVZc5g-0" value="GameManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="360" width="160" height="190" as="geometry" />
+          <mxGeometry x="100" y="360" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="rw3Is0due_I-UnfVZc5g-1" value="- levels: List&amp;lt;Level&amp;gt;&lt;div&gt;- currentLevel: Level&lt;/div&gt;&lt;div&gt;- score: int&lt;/div&gt;&lt;div&gt;- map: GameMap&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rw3Is0due_I-UnfVZc5g-0" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -206,6 +206,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b9I_rk6hgtn4qXGZe8mg-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.464;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k3yKtcVjdH3FUmCwJc7V-12" target="rw3Is0due_I-UnfVZc5g-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="370" as="sourcePoint" />
+            <mxPoint x="260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9I_rk6hgtn4qXGZe8mg-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.46;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rw3Is0due_I-UnfVZc5g-0" target="rw3Is0due_I-UnfVZc5g-31">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="100" y="370" as="sourcePoint" />
             <mxPoint x="260" y="370" as="targetPoint" />
