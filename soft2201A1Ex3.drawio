@@ -62,7 +62,7 @@
           <mxGeometry y="100" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rw3Is0due_I-UnfVZc5g-0" value="GameManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="75" y="360" width="210" height="160" as="geometry" />
+          <mxGeometry x="75" y="380" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rw3Is0due_I-UnfVZc5g-1" value="- levels: List&amp;lt;Level&amp;gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- map: GameMap&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rw3Is0due_I-UnfVZc5g-0" vertex="1">
           <mxGeometry y="26" width="210" height="44" as="geometry" />
@@ -70,8 +70,8 @@
         <mxCell id="rw3Is0due_I-UnfVZc5g-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rw3Is0due_I-UnfVZc5g-0" vertex="1">
           <mxGeometry y="70" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rw3Is0due_I-UnfVZc5g-3" value="&lt;div&gt;+ initializeGame(): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getLevels(): List&amp;lt;Level&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getMap(): GameMap&lt;/div&gt;&lt;div&gt;+ getEventManager(): EventManager&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rw3Is0due_I-UnfVZc5g-0" vertex="1">
-          <mxGeometry y="78" width="210" height="82" as="geometry" />
+        <mxCell id="rw3Is0due_I-UnfVZc5g-3" value="&lt;div&gt;+ initializeGame(): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getLevels(): List&amp;lt;Level&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getMap(): GameMap&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rw3Is0due_I-UnfVZc5g-0" vertex="1">
+          <mxGeometry y="78" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="rw3Is0due_I-UnfVZc5g-8" value="ConfigExtractor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="906" y="188.48" width="300" height="140" as="geometry" />
