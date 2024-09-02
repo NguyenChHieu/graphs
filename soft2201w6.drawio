@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1432" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1927" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rKWmMmvDXYoMBtS0ijZ0-4" value="Document" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-40" y="160" width="310" height="170" as="geometry" />
+          <mxGeometry x="-40" y="180" width="310" height="170" as="geometry" />
         </mxCell>
         <mxCell id="rKWmMmvDXYoMBtS0ijZ0-5" value="- text: String = &quot;&quot;&lt;div&gt;- MARGIN: double&lt;/div&gt;&lt;div&gt;- AUTHOR: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rKWmMmvDXYoMBtS0ijZ0-4">
           <mxGeometry y="26" width="310" height="54" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="88" width="310" height="82" as="geometry" />
         </mxCell>
         <mxCell id="rKWmMmvDXYoMBtS0ijZ0-8" value="DocumentSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="160" width="310" height="220" as="geometry" />
+          <mxGeometry x="610" y="180" width="310" height="220" as="geometry" />
         </mxCell>
         <mxCell id="rKWmMmvDXYoMBtS0ijZ0-9" value="&lt;u&gt;- FOLDER_NAME: String = &quot;output&quot;&lt;/u&gt;&lt;div&gt;&lt;u&gt;- mementoUndoStack: Stack&amp;lt;DocumentMemento&amp;gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;mementoRedoStack:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Stack&amp;lt;DocumentMemento&amp;gt;&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;- currentDocument: Document&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rKWmMmvDXYoMBtS0ijZ0-8">
           <mxGeometry y="26" width="310" height="64" as="geometry" />
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="rKWmMmvDXYoMBtS0ijZ0-11" value="&lt;u&gt;+ createDocument(): Document\&lt;/u&gt;&lt;div&gt;&lt;u&gt;+ append(String text): void&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ undo(): void&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ redo(): void&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ main(String[] args): void&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ test(): void&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ writeDocumentToFile(Document document,&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String&lt;/span&gt;&amp;nbsp;filename): void&lt;/u&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rKWmMmvDXYoMBtS0ijZ0-8">
           <mxGeometry y="98" width="310" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="rKWmMmvDXYoMBtS0ijZ0-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rKWmMmvDXYoMBtS0ijZ0-3" target="rKWmMmvDXYoMBtS0ijZ0-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="370" as="sourcePoint" />
+            <mxPoint x="520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rKWmMmvDXYoMBtS0ijZ0-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rKWmMmvDXYoMBtS0ijZ0-5" target="rKWmMmvDXYoMBtS0ijZ0-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="330" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
