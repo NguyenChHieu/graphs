@@ -313,17 +313,14 @@
         <mxCell id="nyFeSnovGv8x3WM9wv4v-18" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="940" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-19" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="940" y="380" width="100" height="40" as="geometry" />
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-19" value="Retakable" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="150" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-20" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="940" y="380" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-21" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="940" y="380" width="100" height="40" as="geometry" />
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-21" value="CreditHours" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nyFeSnovGv8x3WM9wv4v-22" value="Name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="120" width="100" height="40" as="geometry" />
+          <mxGeometry x="1030" y="70" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nyFeSnovGv8x3WM9wv4v-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -391,22 +388,22 @@
             <mxPoint x="1010" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-34" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyFeSnovGv8x3WM9wv4v-19" target="nyFeSnovGv8x3WM9wv4v-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="420" as="sourcePoint" />
-            <mxPoint x="1010" y="370" as="targetPoint" />
+            <mxPoint x="1240" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyFeSnovGv8x3WM9wv4v-7" target="nyFeSnovGv8x3WM9wv4v-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="420" as="sourcePoint" />
-            <mxPoint x="1010" y="370" as="targetPoint" />
+            <mxPoint x="1320" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nyFeSnovGv8x3WM9wv4v-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyFeSnovGv8x3WM9wv4v-21" target="nyFeSnovGv8x3WM9wv4v-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="420" as="sourcePoint" />
-            <mxPoint x="1010" y="370" as="targetPoint" />
+            <mxPoint x="1170" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nyFeSnovGv8x3WM9wv4v-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyFeSnovGv8x3WM9wv4v-22" target="nyFeSnovGv8x3WM9wv4v-7">
@@ -414,6 +411,9 @@
             <mxPoint x="960" y="420" as="sourcePoint" />
             <mxPoint x="1090" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nyFeSnovGv8x3WM9wv4v-38" value="Major" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="70" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
