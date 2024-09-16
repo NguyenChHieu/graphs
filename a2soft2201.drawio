@@ -203,7 +203,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-14" value="Vector2D" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2075" y="1165" width="260" height="220" as="geometry" />
+          <mxGeometry x="2075" y="1165" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-15" value="&lt;u&gt;+ ZERO: Vector2D =&amp;nbsp;new Vector2D(0, 0)&lt;/u&gt;&lt;div&gt;- X: double&lt;/div&gt;&lt;div&gt;- Y: double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cKav830lnLoJr6N91uCu-14">
           <mxGeometry y="26" width="260" height="54" as="geometry" />
@@ -212,7 +212,7 @@
           <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-17" value="+ add(Vector2D v): Vector2D&lt;div&gt;+ isLeftOf(double x): boolean&lt;/div&gt;&lt;div&gt;+ isRightOf(double x): boolean&lt;/div&gt;&lt;div&gt;+ isAbove(double y): boolean&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ isBelow(double y): boolean&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;+ calculateEuclideanDistance(&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Vector2D vector1, Vector2D vector2): double&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ toString(): String&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cKav830lnLoJr6N91uCu-14">
-          <mxGeometry y="88" width="260" height="132" as="geometry" />
+          <mxGeometry y="88" width="260" height="122" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Rv-P8EvsAHLdCJcwYoj-26" target="cKav830lnLoJr6N91uCu-14">
           <mxGeometry width="160" relative="1" as="geometry">
