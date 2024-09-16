@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-42" value="physics" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="50" width="60" height="30" as="geometry" />
+          <mxGeometry x="920" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-44" value="ghost" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1260" width="60" height="30" as="geometry" />
