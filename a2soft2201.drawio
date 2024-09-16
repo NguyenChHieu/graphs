@@ -468,13 +468,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-87" value="EmptyCellFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="480" width="220" height="52" as="geometry" />
+          <mxGeometry x="-480" y="480" width="220" height="52" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-90" value="+&amp;nbsp;&lt;i&gt;createEntity(int x, int y): Renderable&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cKav830lnLoJr6N91uCu-87">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-91" value="WallFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="480" width="220" height="52" as="geometry" />
+          <mxGeometry x="-210" y="480" width="220" height="52" as="geometry" />
         </mxCell>
         <mxCell id="cKav830lnLoJr6N91uCu-94" value="+&amp;nbsp;&lt;i&gt;createEntity(int x, int y): Renderable&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cKav830lnLoJr6N91uCu-91">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
