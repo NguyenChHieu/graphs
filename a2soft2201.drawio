@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="4142" dy="2618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4753" dy="2998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mvxwqQvN9c_8oFIOH2sW-9" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=40;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-80" width="2260" height="2080" as="geometry" />
+        </mxCell>
         <mxCell id="mvxwqQvN9c_8oFIOH2sW-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="70" width="1050" height="1320" as="geometry" />
+          <mxGeometry x="-1070" y="70" width="1070" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="mvxwqQvN9c_8oFIOH2sW-4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="106" width="1010" height="650" as="geometry" />
@@ -26,10 +29,10 @@
           <mxGeometry x="905" y="70" width="1280" height="860" as="geometry" />
         </mxCell>
         <mxCell id="PFhRMsVk6HXeF8vmKrcg-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Renderable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getImage(): Image&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getWidth(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getHeight(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getPosition(): Vector2D&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getLayer(): Renderable.Layer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getBoundingBox():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;BoundingBox&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reset(): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="404.82" y="665" width="200" height="280" as="geometry" />
+          <mxGeometry x="400" y="630" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="PFhRMsVk6HXeF8vmKrcg-6" value="&lt;div&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Layer&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="424.82" y="825" width="160" height="110" as="geometry" />
+          <mxGeometry x="420" y="790" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PFhRMsVk6HXeF8vmKrcg-9" value="BACKGROUND&lt;div&gt;FOREGROUND&lt;/div&gt;&lt;div&gt;EFFECT&lt;/div&gt;&lt;div&gt;INVISIBLE&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PFhRMsVk6HXeF8vmKrcg-6" vertex="1">
           <mxGeometry y="40" width="160" height="70" as="geometry" />
@@ -542,7 +545,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GprhF9X-tHEXFt6axJcZ-2" value="Maze" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="800" width="450" height="320" as="geometry" />
+          <mxGeometry x="-780" y="960" width="450" height="320" as="geometry" />
         </mxCell>
         <mxCell id="GprhF9X-tHEXFt6axJcZ-3" value="&lt;u&gt;-&amp;nbsp;MAX_CENTER_DISTANCE: int = 4&lt;/u&gt;&lt;div&gt;- RENDERABLES: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- GHOSTS:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Renderable&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- PELLETS:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Renderable&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- pacman: Renderable&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- numLives: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- isWall: Map&amp;lt;String, Boolean&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="GprhF9X-tHEXFt6axJcZ-2" vertex="1">
           <mxGeometry y="26" width="450" height="104" as="geometry" />
@@ -563,7 +566,7 @@
           <mxGeometry x="-550" y="691" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9eWud0pax2Ppbue_ysiN-1" value="MazeCreator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-500" y="1200" width="160" height="94" as="geometry" />
+          <mxGeometry x="-490" y="1360" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="9eWud0pax2Ppbue_ysiN-2" value="+ RESIZING_FACTOR:&amp;nbsp;&lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;&amp;nbsp;&lt;div&gt;- FILENAME:&amp;nbsp;&lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9eWud0pax2Ppbue_ysiN-1" vertex="1">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -576,17 +579,17 @@
         </mxCell>
         <mxCell id="9eWud0pax2Ppbue_ysiN-5" value="Created" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.498;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9eWud0pax2Ppbue_ysiN-1" target="GprhF9X-tHEXFt6axJcZ-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-500" y="1010" as="sourcePoint" />
-            <mxPoint x="-340" y="1010" as="targetPoint" />
+            <mxPoint x="-490" y="1170" as="sourcePoint" />
+            <mxPoint x="-330" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l8jmbHhf74pp199hdieH-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;RenderableTyoe&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ HORIZONTAL_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ VERTICAL_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UP_LEFT_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UP_RIGHT_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DOWN_LEFT_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DOWN_RIGHT_WALL: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PELLET: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PACMAN: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GHOST: char&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="1200" width="190" height="180" as="geometry" />
+          <mxGeometry x="-760" y="1360" width="190" height="180" as="geometry" />
         </mxCell>
         <mxCell id="mvxwqQvN9c_8oFIOH2sW-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.493;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GprhF9X-tHEXFt6axJcZ-5" target="l8jmbHhf74pp199hdieH-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-580" y="1070.0040000000001" as="sourcePoint" />
-            <mxPoint x="-666.45" y="1199.64" as="targetPoint" />
+            <mxPoint x="-570" y="1230.0040000000001" as="sourcePoint" />
+            <mxPoint x="-656.45" y="1359.64" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mvxwqQvN9c_8oFIOH2sW-3" value="maze" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
@@ -620,6 +623,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mvxwqQvN9c_8oFIOH2sW-10" value="entity" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-70" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
