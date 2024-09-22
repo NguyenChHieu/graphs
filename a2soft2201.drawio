@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="2378" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3774" dy="2315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,7 +530,7 @@
         <mxCell id="cKav830lnLoJr6N91uCu-119" value="+&amp;nbsp;getFactory(String entityType): EntityFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="cKav830lnLoJr6N91uCu-116" vertex="1">
           <mxGeometry y="64" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cKav830lnLoJr6N91uCu-120" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cKav830lnLoJr6N91uCu-73" target="PFhRMsVk6HXeF8vmKrcg-1" edge="1">
+        <mxCell id="cKav830lnLoJr6N91uCu-120" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cKav830lnLoJr6N91uCu-73" target="PFhRMsVk6HXeF8vmKrcg-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="590" y="620" as="sourcePoint" />
             <mxPoint x="750" y="620" as="targetPoint" />
@@ -544,7 +544,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GprhF9X-tHEXFt6axJcZ-2" value="Maze" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1220" y="600" width="450" height="320" as="geometry" />
+          <mxGeometry x="-800" y="800" width="450" height="320" as="geometry" />
         </mxCell>
         <mxCell id="GprhF9X-tHEXFt6axJcZ-3" value="&lt;u&gt;-&amp;nbsp;MAX_CENTER_DISTANCE: int = 4&lt;/u&gt;&lt;div&gt;- RENDERABLES: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- GHOSTS:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Renderable&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- PELLETS:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Renderable&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- pacman: Renderable&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- numLives: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- isWall: Map&amp;lt;String, Boolean&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="GprhF9X-tHEXFt6axJcZ-2" vertex="1">
           <mxGeometry y="26" width="450" height="104" as="geometry" />
@@ -554,6 +554,12 @@
         </mxCell>
         <mxCell id="GprhF9X-tHEXFt6axJcZ-5" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ addRenderable(renderable: Renderable, renderableType: char, x: int, y: int): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getRenderables(): List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;+ getControllable(): Renderable&lt;/div&gt;&lt;div&gt;+ getGhosts(): List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPellets(): List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;+ updatePossibleDirections(dynamicEntity: DynamicEntity)&lt;/div&gt;&lt;div&gt;+ setNumLives(numLives: int)&lt;/div&gt;&lt;div&gt;+ getNumLives(): int&lt;/div&gt;&lt;div&gt;+ reset()&lt;/div&gt;&lt;div&gt;- formatCoordinates(x: int, y: int): String&lt;/div&gt;&lt;div&gt;- getCenterOfTile(index: int): int&lt;/div&gt;&lt;div&gt;+ isAtIntersection(possibleDirections: Set&amp;lt;Direction&amp;gt;): boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="GprhF9X-tHEXFt6axJcZ-2" vertex="1">
           <mxGeometry y="138" width="450" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly1XrQclCU_J333-9nz_-1" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="PFhRMsVk6HXeF8vmKrcg-1" target="GprhF9X-tHEXFt6axJcZ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="960" as="sourcePoint" />
+            <mxPoint x="80" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
