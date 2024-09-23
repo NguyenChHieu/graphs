@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="2132" dy="2741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4356" dy="3580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -929,16 +929,16 @@
           <mxGeometry x="44.16" y="-2040" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-47" value="EntityViewImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-2002" width="160" height="134" as="geometry" />
+          <mxGeometry x="520" y="-2057" width="300" height="218" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-48" value="&lt;span class=&quot;hljs-deletion&quot;&gt;- ENTITY: Renderable&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-deletion&quot;&gt;- delete: boolean&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-deletion&quot;&gt;- NODE: ImageView&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-deletion&quot;&gt;- HBOX: HBox&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-47">
-          <mxGeometry y="26" width="160" height="74" as="geometry" />
+          <mxGeometry y="26" width="300" height="74" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="31J7c56JtD6n4PRhF19L-47">
-          <mxGeometry y="100" width="160" height="8" as="geometry" />
+          <mxGeometry y="100" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="31J7c56JtD6n4PRhF19L-50" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-47">
-          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        <mxCell id="31J7c56JtD6n4PRhF19L-50" value="+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;update&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;matchesEntity&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;entity&lt;/span&gt;: Renderable): &lt;span class=&quot;hljs-keyword&quot;&gt;boolean&lt;/span&gt;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;markForDelete&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;getNode&lt;/span&gt;(): Node&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;isMarkedForDelete&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;boolean&lt;/span&gt;&lt;br&gt;- &lt;u&gt;&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;getViewOrder&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;layer&lt;/span&gt;: Renderable.Layer): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-47">
+          <mxGeometry y="108" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
