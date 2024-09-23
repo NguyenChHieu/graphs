@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="2305" dy="2958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2800" dy="3578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="31J7c56JtD6n4PRhF19L-91" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-2150" width="880" height="570" as="geometry" />
+        </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-83" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=80;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="-2124" width="840" height="404" as="geometry" />
         </mxCell>
@@ -1055,7 +1058,7 @@
           <mxGeometry x="1000" y="-2124" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-85" value="KeyboardInputHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1315" y="-1650" width="250" height="86" as="geometry" />
+          <mxGeometry x="1315" y="-1680" width="250" height="86" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-86" value="&lt;div&gt;- movementController: MovementController&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-85">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -1065,6 +1068,15 @@
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-88" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ handlePressed(keyEvent: KeyEvent): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-85">
           <mxGeometry y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="31J7c56JtD6n4PRhF19L-90" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="31J7c56JtD6n4PRhF19L-85" target="31J7c56JtD6n4PRhF19L-81">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1240" y="-1750" as="sourcePoint" />
+            <mxPoint x="1400" y="-1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31J7c56JtD6n4PRhF19L-92" value="keyboard" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-2150" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
