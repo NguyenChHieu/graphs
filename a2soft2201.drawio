@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="2639" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3057" dy="3043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,22 +790,22 @@
           <mxGeometry x="130" y="-980" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-10" value="GameEngineImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="-890" width="290" height="184" as="geometry" />
+          <mxGeometry x="-610" y="-1030" width="370" height="380" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-11" value="&lt;div&gt;- currentLevel: Level&lt;/div&gt;&lt;div&gt;- numLevels: int&lt;/div&gt;&lt;div&gt;- currentLevelNo: int&lt;/div&gt;&lt;div&gt;- maze: Maze&lt;/div&gt;&lt;div&gt;- levelConfigs: JSONArray&lt;/div&gt;&lt;div&gt;- points: int&lt;/div&gt;&lt;div&gt;- gameState: GameState&lt;/div&gt;&lt;div&gt;- inGameObservers: List&amp;lt;InGameObserver&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-10">
-          <mxGeometry y="26" width="290" height="124" as="geometry" />
+          <mxGeometry y="26" width="370" height="124" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="31J7c56JtD6n4PRhF19L-10">
-          <mxGeometry y="150" width="290" height="8" as="geometry" />
+          <mxGeometry y="150" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="31J7c56JtD6n4PRhF19L-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-10">
-          <mxGeometry y="158" width="290" height="26" as="geometry" />
+        <mxCell id="31J7c56JtD6n4PRhF19L-13" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- init(gameConfigurationReader: GameConfigurationReader): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getRenderables(): List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;+ startGame(): void&lt;/div&gt;&lt;div&gt;- startLevel(): void&lt;/div&gt;&lt;div&gt;+ switchLevel(): void&lt;/div&gt;&lt;div&gt;- win(): boolean&lt;/div&gt;&lt;div&gt;+ tick(): void&lt;/div&gt;&lt;div&gt;+ addObserver(observer: InGameObserver): void&lt;/div&gt;&lt;div&gt;- notifyObservers(): void&lt;/div&gt;&lt;div&gt;+ getPlayerPoints(): int&lt;/div&gt;&lt;div&gt;+ setPlayerPoints(playerPoints: int): void&lt;/div&gt;&lt;div&gt;+ getCurrentLevel(): Level&lt;/div&gt;&lt;div&gt;+ getGameState(): GameState&lt;/div&gt;&lt;div&gt;+ setGameState(state: GameState): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-10">
+          <mxGeometry y="158" width="370" height="222" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GameEngine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getRenderables(): List&amp;lt;Renderable&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ startGame(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tick(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPlayerPoints(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPlayerPoints(playerPoints: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCurrentLevel(): Level&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getGameState(): GameState&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setGameState(gameState: GameState): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ switchLevel(): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-555" y="-580" width="260" height="190" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-15" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-837.77" y="-720" width="160" height="86" as="geometry" />
+          <mxGeometry x="-505" y="-1240" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="31J7c56JtD6n4PRhF19L-15">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -823,6 +823,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-140" y="-440" as="sourcePoint" />
             <mxPoint x="20" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31J7c56JtD6n4PRhF19L-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31J7c56JtD6n4PRhF19L-13" target="31J7c56JtD6n4PRhF19L-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-280" y="-670" as="sourcePoint" />
+            <mxPoint x="-120" y="-670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
