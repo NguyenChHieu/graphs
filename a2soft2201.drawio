@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="2677" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2639" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -709,7 +709,7 @@
         <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-9" value="LevelConfigurationReader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="-950" width="340" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-10" value="&lt;div&gt;- levelConfiguration: JSONObject&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fcqCVJ-Ow2PfC9Mv2DtD-9" vertex="1">
+        <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-10" value="&lt;div&gt;- LEVELCONFIGURATION: JSONObject&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fcqCVJ-Ow2PfC9Mv2DtD-9" vertex="1">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fcqCVJ-Ow2PfC9Mv2DtD-9" vertex="1">
@@ -724,7 +724,7 @@
         <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-15" value="LevelImpl&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="-760" width="360" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-16" value="&lt;div&gt;- maze: Maze&lt;/div&gt;&lt;div&gt;- renderables: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- player: Controllable&lt;/div&gt;&lt;div&gt;- ghosts: List&amp;lt;Ghost&amp;gt;&lt;/div&gt;&lt;div&gt;- tickCount: int&lt;/div&gt;&lt;div&gt;- modeLengths: Map&amp;lt;GhostMode, Integer&amp;gt;&lt;/div&gt;&lt;div&gt;- numLives: int&lt;/div&gt;&lt;div&gt;- collectables: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- currentGhostMode: GhostMode&lt;/div&gt;&lt;div&gt;- model: GameEngine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fcqCVJ-Ow2PfC9Mv2DtD-15" vertex="1">
+        <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-16" value="&lt;div&gt;- MAZE: Maze&lt;/div&gt;&lt;div&gt;&lt;div&gt;- MODEL: GameEngine&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- renderables: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- player: Controllable&lt;/div&gt;&lt;div&gt;- ghosts: List&amp;lt;Ghost&amp;gt;&lt;/div&gt;&lt;div&gt;- tickCount: int&lt;/div&gt;&lt;div&gt;- modeLengths: Map&amp;lt;GhostMode, Integer&amp;gt;&lt;/div&gt;&lt;div&gt;- numLives: int&lt;/div&gt;&lt;div&gt;- collectables: List&amp;lt;Renderable&amp;gt;&lt;/div&gt;&lt;div&gt;- currentGhostMode: GhostMode&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fcqCVJ-Ow2PfC9Mv2DtD-15" vertex="1">
           <mxGeometry y="26" width="360" height="154" as="geometry" />
         </mxCell>
         <mxCell id="fcqCVJ-Ow2PfC9Mv2DtD-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fcqCVJ-Ow2PfC9Mv2DtD-15" vertex="1">
