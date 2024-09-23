@@ -941,7 +941,7 @@
           <mxGeometry y="108" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EntityView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;span class=&quot;hljs-built_in&quot;&gt;update&lt;/span&gt;(): void&lt;br/&gt;+ &lt;span class=&quot;hljs-built_in&quot;&gt;matchesEntity&lt;/span&gt;(entity: Renderable): boolean&lt;br/&gt;+ &lt;span class=&quot;hljs-built_in&quot;&gt;markForDelete&lt;/span&gt;(): void&lt;br/&gt;+ &lt;span class=&quot;hljs-built_in&quot;&gt;getNode&lt;/span&gt;(): Node&lt;br/&gt;+ &lt;span class=&quot;hljs-built_in&quot;&gt;isMarkedForDelete&lt;/span&gt;(): boolean&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="-1780" width="255" height="120" as="geometry" />
+          <mxGeometry x="542.5" y="-1800" width="255" height="120" as="geometry" />
         </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.501;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31J7c56JtD6n4PRhF19L-50" target="31J7c56JtD6n4PRhF19L-51">
           <mxGeometry width="160" relative="1" as="geometry">
