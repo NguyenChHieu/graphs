@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="3787" dy="3284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3161" dy="2959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="31J7c56JtD6n4PRhF19L-83" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=80;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-2124" width="840" height="404" as="geometry" />
+        </mxCell>
         <mxCell id="31J7c56JtD6n4PRhF19L-54" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="480" y="-2100" width="370" height="450" as="geometry" />
         </mxCell>
@@ -1047,6 +1050,9 @@
             <mxPoint x="1860" y="-1760" as="sourcePoint" />
             <mxPoint x="1650" y="-1840.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="31J7c56JtD6n4PRhF19L-84" value="command" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-2124" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
