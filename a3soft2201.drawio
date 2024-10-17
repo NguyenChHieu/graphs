@@ -1463,14 +1463,20 @@
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-105" value="PelletFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3470" y="80" width="360" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-106" value="&lt;div&gt;# PELLET_IMAGE: Image = &quot;maze/pellet.png&quot;&lt;br&gt;# NUM_POINTS: int = 10&lt;br&gt;# LAYER: Renderable.Layer = Renderable.Layer.BACKGROUND&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-105">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-106" value="&lt;div&gt;&lt;u&gt;# PELLET_IMAGE: Image = &quot;maze/pellet.png&quot;&lt;br&gt;# NUM_POINTS: int = 10&lt;/u&gt;&lt;br&gt;# LAYER: Renderable.Layer = Renderable.Layer.BACKGROUND&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-105">
           <mxGeometry y="26" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-109" value="SuperPelletFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3470" y="307" width="360" height="76" as="geometry" />
+          <mxGeometry x="-3405" y="313" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-110" value="&lt;div&gt;# PELLET_IMAGE: Image = &quot;maze/pellet.png&quot;&lt;br&gt;# NUM_POINTS: int = 10&lt;br&gt;# LAYER: Renderable.Layer = Renderable.Layer.BACKGROUND&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-109">
-          <mxGeometry y="26" width="360" height="50" as="geometry" />
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-110" value="&lt;div&gt;- OFFSET: double = -8&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-109">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-113" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SsH_1PTJZZxKGDjBzMo-109" target="8SsH_1PTJZZxKGDjBzMo-106">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-3430" y="260" as="sourcePoint" />
+            <mxPoint x="-3270" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
