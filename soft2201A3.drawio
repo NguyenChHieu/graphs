@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="vTZRo5Hn38DPCM6BCFyR">
-    <mxGraphModel dx="1745" dy="1685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="2048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,13 +166,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IGhostState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ update(Ghost ghost): void&lt;br/&gt;+ collides(Level level, Renderable renderable): void&lt;br/&gt;+ getImage(): Image&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="341" y="-214" width="285" height="99" as="geometry" />
+          <mxGeometry x="324" y="-211" width="285" height="99" as="geometry" />
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GhostNormalState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ghost: Ghost&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ks: KinematicState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- updateDirection(): void&lt;br&gt;- selectDirection(Set&amp;lt;Direction&amp;gt; possibleDirections): Direction&lt;br&gt;+ frightenedState(int duration): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="690" y="-290.5" width="336" height="119" as="geometry" />
+          <mxGeometry x="678" y="-325" width="336" height="119" as="geometry" />
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GhostFrightenedState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- ghost: Ghost&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- ks: KinematicState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- IMG: Image = &quot;maze/ghosts/frightened.png&quot;&lt;br&gt;- tickCount: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resetTickCount(int duration): void&lt;br&gt;- updateDirection(): void&lt;br&gt;- selectDirection(Set&amp;lt;Direction&amp;gt; possibleDirections): Direction&lt;br&gt;- calculatePoints(int ghostEatenCount): int&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="691" y="-123" width="333" height="162" as="geometry" />
+          <mxGeometry x="679" y="-157.5" width="333" height="162" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
