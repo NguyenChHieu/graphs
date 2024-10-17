@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="6026" dy="2684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6454" dy="2908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1416,19 +1416,19 @@
           <mxGeometry y="163" width="347" height="27" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-95" value="ABlinkyFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3140" y="337" width="160" height="52" as="geometry" />
+          <mxGeometry x="-3070" y="345" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-96" value="AClydeFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2935" y="337" width="160" height="52" as="geometry" />
+          <mxGeometry x="-2865" y="345" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-97" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8SsH_1PTJZZxKGDjBzMo-95" target="8SsH_1PTJZZxKGDjBzMo-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-98" value="APInkyFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2730" y="337" width="160" height="52" as="geometry" />
+          <mxGeometry x="-2660" y="345" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-99" value="ABlinkyFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2511" y="337" width="160" height="52" as="geometry" />
+          <mxGeometry x="-2441" y="345" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-100" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.502;entryY=1.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SsH_1PTJZZxKGDjBzMo-95" target="8SsH_1PTJZZxKGDjBzMo-94">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1461,16 +1461,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-105" value="PelletFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3470" y="80" width="360" height="111" as="geometry" />
+          <mxGeometry x="-3470" y="80" width="360" height="76" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-106" value="&lt;div&gt;# PELLET_IMAGE: Image = &quot;maze/pellet.png&quot;&lt;br&gt;# NUM_POINTS: int = 10&lt;br&gt;# LAYER: Renderable.Layer = Renderable.Layer.BACKGROUND&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-105">
           <mxGeometry y="26" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-107" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-105">
-          <mxGeometry y="76" width="360" height="8" as="geometry" />
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-109" value="SuperPelletFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="307" width="360" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-108" value="&lt;i&gt;+ createGhost(Vector2D position): Renderable&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-105">
-          <mxGeometry y="84" width="360" height="27" as="geometry" />
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-110" value="&lt;div&gt;# PELLET_IMAGE: Image = &quot;maze/pellet.png&quot;&lt;br&gt;# NUM_POINTS: int = 10&lt;br&gt;# LAYER: Renderable.Layer = Renderable.Layer.BACKGROUND&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-109">
+          <mxGeometry y="26" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
