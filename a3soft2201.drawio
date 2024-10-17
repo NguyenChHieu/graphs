@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="7022" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7960" dy="3350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1464,7 +1464,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-120" value="GhostImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3177.7110843373493" y="410" width="350" height="330" as="geometry" />
+          <mxGeometry x="-2980.0010843373493" y="-830" width="350" height="330" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-121" value="- LAYER: Layer = Layer.FOREGROUND&lt;div&gt;- IMAGE: Image&lt;/div&gt;&lt;div&gt;- BOUNDINGBOX: BoundingBox&lt;/div&gt;&lt;div&gt;- STARTINGPOSITION: Vector2D&lt;/div&gt;&lt;div&gt;- TARGETCORNER: Vector2D&lt;/div&gt;&lt;div&gt;- kinematicState: KinematicState&lt;/div&gt;&lt;div&gt;- ghostMode: GhostMode&lt;/div&gt;&lt;div&gt;- targetLocation: Vector2D&lt;/div&gt;&lt;div&gt;- currentDirection: Direction&lt;/div&gt;&lt;div&gt;- possibleDirections: Set&amp;lt;Direction&amp;gt;&lt;/div&gt;&lt;div&gt;- playerPosition: Vector2D&lt;/div&gt;&lt;div&gt;- speeds: Map&amp;lt;GhostMode, Double&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-120">
           <mxGeometry y="26" width="350" height="184" as="geometry" />
@@ -1476,13 +1476,13 @@
           <mxGeometry y="218" width="350" height="112" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-124" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Ghost&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;setSpeeds(Map&amp;lt;GhostMode, Double&amp;gt; speeds&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setGhostMode(GhostMode ghostMode): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;setPlayerPosition(Vector2D playerPosition): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-3157.7110843373493" y="270" width="310" height="100" as="geometry" />
+          <mxGeometry x="-2960.0010843373493" y="-395" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-125" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DynamicEntity&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;update(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getPositionBeforeLastUpdate(): Vector2D&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;setPosition(Vector2D position): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;collidesWith(Renderable renderable): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;collideWith(Level level,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Renderable renderable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;setPossibleDirections(Set&amp;lt;Direction&amp;gt; possibleDirections): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getDirection(): Direction&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getCenter(): Vector2D&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2912.7110843373493" y="-200" width="350" height="170" as="geometry" />
+          <mxGeometry x="-3210.0010843373493" y="-150" width="350" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-126" value="&lt;div&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GhostMode&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3312.7110843373493" y="118" width="330" height="104" as="geometry" />
+          <mxGeometry x="-2280.0010843373493" y="-604" width="330" height="104" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-127" value="SCATTER&lt;div&gt;CHASE&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-126">
           <mxGeometry y="40" width="330" height="30" as="geometry" />
@@ -1493,19 +1493,19 @@
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-129" value="&lt;u&gt;+ getNextGhostMode(GhostMode ghostMode: GhostMode&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-126">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-130" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.451;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-124" target="8SsH_1PTJZZxKGDjBzMo-129" parent="1">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-130" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.451;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-124" target="8SsH_1PTJZZxKGDjBzMo-129" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-3067.7110843373493" y="320" as="sourcePoint" />
-            <mxPoint x="-2907.7110843373493" y="320" as="targetPoint" />
+            <mxPoint x="-2455.0010843373493" y="-540" as="sourcePoint" />
+            <mxPoint x="-2295.0010843373493" y="-540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-131" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-120" target="8SsH_1PTJZZxKGDjBzMo-124" parent="1">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-131" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1.089;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-123" target="8SsH_1PTJZZxKGDjBzMo-124" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-3107.7110843373493" y="400" as="sourcePoint" />
-            <mxPoint x="-2947.7110843373493" y="400" as="targetPoint" />
+            <mxPoint x="-2495.0010843373493" y="-460" as="sourcePoint" />
+            <mxPoint x="-2335.0010843373493" y="-460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-132" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-124" target="8SsH_1PTJZZxKGDjBzMo-125" parent="1">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-132" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-124" target="8SsH_1PTJZZxKGDjBzMo-125" parent="1">
           <mxGeometry x="0.4236" y="8" width="160" relative="1" as="geometry">
             <mxPoint x="-3162.7110843373493" y="240" as="sourcePoint" />
             <mxPoint x="-2812.7110843373493" y="150" as="targetPoint" />
@@ -1514,14 +1514,14 @@
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8SsH_1PTJZZxKGDjBzMo-141">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2360" y="224.72727272727252" as="targetPoint" />
+            <mxPoint x="-2727.29" y="184.72727272727252" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-141" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Controllable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; up(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; down(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; left(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; right(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; setSpeed(double speed): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;+&lt;/span&gt; switchImage(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2552.7110843373493" y="160" width="190" height="130" as="geometry" />
+          <mxGeometry x="-2920.0010843373493" y="120" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-142" value="&lt;div&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;PacmanVisual&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2760.0010843373493" y="160" width="160" height="120" as="geometry" />
+          <mxGeometry x="-1880.0010843373493" y="198" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-143" value="UP&lt;div&gt;DOWN&lt;/div&gt;&lt;div&gt;LEFT&lt;/div&gt;&lt;div&gt;RIGHT&lt;/div&gt;&lt;div&gt;CLOSED&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-142">
           <mxGeometry y="40" width="160" height="80" as="geometry" />
@@ -1533,21 +1533,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-145" value="Pacman" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2612.7110843373493" y="360" width="310" height="200" as="geometry" />
+          <mxGeometry x="-2980.0010843373493" y="320" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-146" value="+&amp;nbsp;&lt;u&gt;PACMAN&lt;span class=&quot;hljs-emphasis&quot;&gt;_IMAGE_&lt;/span&gt;SWAP&lt;span class=&quot;hljs-emphasis&quot;&gt;_TICK_&lt;/span&gt;COUNT: int = 8&lt;br&gt;&lt;/u&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt;&amp;nbsp;LAYER: Layer =&amp;nbsp;Layer.FOREGROUND&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; IMAGES: Map&lt;span class=&quot;xml&quot;&gt;&amp;lt;PacmanVisual, Image&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; BOUNDINGBOX: BoundingBox&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; STARTINGPOSITION: Vector2D&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; kinematicState: KinematicState&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; currentImage: Image&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; possibleDirections: Set&lt;span class=&quot;xml&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-name&quot;&gt;Direction&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-section&quot;&gt;- isClosedImage: boolean&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;hljs-section&quot;&gt;- observers: Set&amp;lt;PlayerPositionObserver&amp;gt;&lt;br/&gt;- movementInvoker: MovementInvoker&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-145">
           <mxGeometry y="26" width="310" height="174" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-149" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-145" target="8SsH_1PTJZZxKGDjBzMo-141" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2472.7110843373493" y="390" as="sourcePoint" />
-            <mxPoint x="-2312.7110843373493" y="390" as="targetPoint" />
+            <mxPoint x="-2840.0010843373493" y="350" as="sourcePoint" />
+            <mxPoint x="-2680.0010843373493" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-150" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.46;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="8SsH_1PTJZZxKGDjBzMo-145" target="8SsH_1PTJZZxKGDjBzMo-143" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+          <mxGeometry x="-0.3324" y="-5" width="160" relative="1" as="geometry">
             <mxPoint x="-2592.7110843373493" y="240" as="sourcePoint" />
             <mxPoint x="-2432.7110843373493" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-154" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Collectable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;collect(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;isCollectable(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;getPoints(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -1618,7 +1619,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-181" value="MomentInvoker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2240.0010843373493" y="120" width="280" height="170" as="geometry" />
+          <mxGeometry x="-2200.0010843373493" y="45" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-182" value="&lt;u&gt;- instance: MovementInvoker&lt;br&gt;&lt;/u&gt;- currentCommand: MoveCommand&lt;br&gt;- queuedCommand: MoveCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
           <mxGeometry y="26" width="280" height="64" as="geometry" />
@@ -1638,6 +1639,13 @@
               <mxPoint x="350.0010843373493" y="-80" />
               <mxPoint x="210.0010843373493" y="-80" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-187" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.521;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SsH_1PTJZZxKGDjBzMo-145" target="8SsH_1PTJZZxKGDjBzMo-184">
+          <mxGeometry x="-0.4189" y="-1" width="160" relative="1" as="geometry">
+            <mxPoint x="-2140" y="10" as="sourcePoint" />
+            <mxPoint x="-1980" y="10" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
