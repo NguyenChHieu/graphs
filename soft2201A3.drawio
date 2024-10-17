@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="vTZRo5Hn38DPCM6BCFyR">
-    <mxGraphModel dx="2153" dy="2048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1873" dy="1799" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,18 @@
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GhostFrightenedState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- ghost: Ghost&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- ks: KinematicState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- IMG: Image = &quot;maze/ghosts/frightened.png&quot;&lt;br&gt;- tickCount: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resetTickCount(int duration): void&lt;br&gt;- updateDirection(): void&lt;br&gt;- selectDirection(Set&amp;lt;Direction&amp;gt; possibleDirections): Direction&lt;br&gt;- calculatePoints(int ghostEatenCount): int&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="679" y="-157.5" width="333" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cGB3watTvd_KGCZ1ymHm-54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGB3watTvd_KGCZ1ymHm-52" target="cGB3watTvd_KGCZ1ymHm-51">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="521" y="-155" as="sourcePoint" />
+            <mxPoint x="618" y="-159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGB3watTvd_KGCZ1ymHm-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGB3watTvd_KGCZ1ymHm-53" target="cGB3watTvd_KGCZ1ymHm-51">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="521" y="-155" as="sourcePoint" />
+            <mxPoint x="681" y="-155" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
