@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="6896" dy="2741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6681" dy="2618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1621,13 +1621,13 @@
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-181" value="MomentInvoker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2240.0010843373493" y="120" width="280" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-182" value="- instance: MovementInvoker&lt;br/&gt;- currentCommand: MoveCommand&lt;br/&gt;- queuedCommand: MoveCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-182" value="&lt;u&gt;- instance: MovementInvoker&lt;br&gt;&lt;/u&gt;- currentCommand: MoveCommand&lt;br&gt;- queuedCommand: MoveCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
           <mxGeometry y="26" width="280" height="64" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-183" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
           <mxGeometry y="90" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8SsH_1PTJZZxKGDjBzMo-184" value="&lt;div&gt;+ getInstance(): MovementInvoker&lt;br/&gt;+ addCommand(MoveCommand command): void&lt;br/&gt;+ update(Set&amp;lt;Direction&amp;gt; possibleDirections): void&lt;br/&gt;+ reset(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
+        <mxCell id="8SsH_1PTJZZxKGDjBzMo-184" value="&lt;div&gt;&lt;u&gt;+ getInstance(): MovementInvoker&lt;br&gt;&lt;/u&gt;+ addCommand(MoveCommand command): void&lt;br&gt;+ update(Set&amp;lt;Direction&amp;gt; possibleDirections): void&lt;br&gt;+ reset(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8SsH_1PTJZZxKGDjBzMo-181">
           <mxGeometry y="98" width="280" height="72" as="geometry" />
         </mxCell>
       </root>
