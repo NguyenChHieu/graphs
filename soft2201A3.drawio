@@ -169,7 +169,7 @@
           <mxGeometry x="341" y="-214" width="285" height="99" as="geometry" />
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GhostNormalState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ghost: Ghost&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ks: KinematicState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- updateDirection(): void&lt;br&gt;- selectDirection(Set&amp;lt;Direction&amp;gt; possibleDirections): Direction&lt;br&gt;+ frightenedState(int duration): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-337" width="336" height="119" as="geometry" />
+          <mxGeometry x="740" y="-290.5" width="336" height="119" as="geometry" />
         </mxCell>
         <mxCell id="cGB3watTvd_KGCZ1ymHm-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GhostFrightenedState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="753" y="-123" width="160" height="90" as="geometry" />
