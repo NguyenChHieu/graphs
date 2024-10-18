@@ -1838,7 +1838,7 @@
           <mxGeometry x="-4225" y="756" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="HImK_Qmbr6wHTWccptqI-20" value="LevelImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4295" y="1240" width="360" height="780" as="geometry" />
+          <mxGeometry x="-4295" y="1210" width="360" height="780" as="geometry" />
         </mxCell>
         <mxCell id="HImK_Qmbr6wHTWccptqI-21" value="- START_LEVEL_TIME: int = 100&lt;br/&gt;- maze: Maze&lt;br/&gt;- observers: List&amp;lt;LevelStateObserver&amp;gt;&lt;br/&gt;- renderables: List&amp;lt;Renderable&amp;gt;&lt;br/&gt;- player: Controllable&lt;br/&gt;- ghosts: List&amp;lt;Ghost&amp;gt;&lt;br/&gt;- tickCount: int&lt;br/&gt;- modeLengths: Map&amp;lt;GhostMode, Integer&amp;gt;&lt;br/&gt;- numLives: int&lt;br/&gt;- points: int&lt;br/&gt;- gameState: GameState&lt;br/&gt;- collectables: List&amp;lt;Renderable&amp;gt;&lt;br/&gt;- currentGhostMode: GhostMode&lt;br/&gt;- ghostEatenCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HImK_Qmbr6wHTWccptqI-20">
           <mxGeometry y="26" width="360" height="214" as="geometry" />
@@ -1868,6 +1868,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-4200" y="840" as="sourcePoint" />
             <mxPoint x="-4040" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImK_Qmbr6wHTWccptqI-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.992;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HImK_Qmbr6wHTWccptqI-20" target="aWbmyJzj3WZZwPGTv_4b-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-4500" y="1340" as="sourcePoint" />
+            <mxPoint x="-4740" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
