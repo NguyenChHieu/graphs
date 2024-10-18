@@ -13,6 +13,12 @@
         <mxCell id="nfwi9NiAY7S6hru7q64L-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ConfigManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getString(String key): String&lt;br/&gt;+ getInt(String key): int&lt;br/&gt;+ getBoolean(String key): boolean&lt;br/&gt;+ loadConfigurations(String filePath): void throws Exception&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-126" y="-13.5" width="327" height="115" as="geometry" />
         </mxCell>
+        <mxCell id="nfwi9NiAY7S6hru7q64L-6" value="Properties" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="10.5" width="294" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="nfwi9NiAY7S6hru7q64L-9" value="+ getProperty(String key): String&lt;div&gt;+ load(InputStream inStream): void&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;throws Exception&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nfwi9NiAY7S6hru7q64L-6">
+          <mxGeometry y="26" width="294" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
