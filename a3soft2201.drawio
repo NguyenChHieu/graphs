@@ -1672,8 +1672,8 @@
             <mxPoint x="-2830" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aWbmyJzj3WZZwPGTv_4b-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MoveCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2260" y="450" width="120" height="69" as="geometry" />
+        <mxCell id="aWbmyJzj3WZZwPGTv_4b-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MoveCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(): void&lt;br/&gt;+ getDirection(): Direction&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="516" width="160" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-9" value="PacmanMoveDownCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2600" y="319.5" width="180" height="86" as="geometry" />
@@ -1748,7 +1748,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-29" value="MovementController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2370" y="560.5" width="340" height="100" as="geometry" />
+          <mxGeometry x="-2370" y="665" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-30" value="&lt;div&gt;- savedCommands: HashMap&amp;lt;KeyCode, Command&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aWbmyJzj3WZZwPGTv_4b-29">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
@@ -1766,7 +1766,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-46" value="KeyboardInputHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2325" y="717" width="250" height="86" as="geometry" />
+          <mxGeometry x="-2325" y="821.5" width="250" height="86" as="geometry" />
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-47" value="&lt;div&gt;- movementController: MovementController&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aWbmyJzj3WZZwPGTv_4b-46">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -1779,8 +1779,8 @@
         </mxCell>
         <mxCell id="aWbmyJzj3WZZwPGTv_4b-50" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aWbmyJzj3WZZwPGTv_4b-46" target="aWbmyJzj3WZZwPGTv_4b-32">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2405" y="689" as="sourcePoint" />
-            <mxPoint x="-2204.23" y="701" as="targetPoint" />
+            <mxPoint x="-2405" y="793.5" as="sourcePoint" />
+            <mxPoint x="-2204.23" y="805.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
