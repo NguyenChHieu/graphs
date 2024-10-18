@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="m_CTQXTZepPv7_hba_2K">
-    <mxGraphModel dx="7898" dy="3212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7074" dy="2784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1504,7 +1504,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-145" value="Pacman" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3575.9010843373494" y="354" width="310" height="200" as="geometry" />
+          <mxGeometry x="-3575.9010843373494" y="442" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-146" value="+&amp;nbsp;&lt;u&gt;PACMAN&lt;span class=&quot;hljs-emphasis&quot;&gt;_IMAGE_&lt;/span&gt;SWAP&lt;span class=&quot;hljs-emphasis&quot;&gt;_TICK_&lt;/span&gt;COUNT: int = 8&lt;br&gt;&lt;/u&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt;&amp;nbsp;LAYER: Layer =&amp;nbsp;Layer.FOREGROUND&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; IMAGES: Map&lt;span class=&quot;xml&quot;&gt;&amp;lt;PacmanVisual, Image&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; BOUNDINGBOX: BoundingBox&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; STARTINGPOSITION: Vector2D&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; kinematicState: KinematicState&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; currentImage: Image&lt;br&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; possibleDirections: Set&lt;span class=&quot;xml&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-name&quot;&gt;Direction&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-section&quot;&gt;- isClosedImage: boolean&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;hljs-section&quot;&gt;- observers: Set&amp;lt;PlayerPositionObserver&amp;gt;&lt;br/&gt;- movementInvoker: MovementInvoker&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8SsH_1PTJZZxKGDjBzMo-145" vertex="1">
           <mxGeometry y="26" width="310" height="174" as="geometry" />
@@ -1984,7 +1984,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hJPGuMUL_oSA_reoDNZH-10" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3497.29" y="570" width="160" height="86" as="geometry" />
+          <mxGeometry x="-3220" y="710" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="hJPGuMUL_oSA_reoDNZH-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hJPGuMUL_oSA_reoDNZH-10">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -1996,19 +1996,13 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hJPGuMUL_oSA_reoDNZH-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PacmanComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPlayer(): Pacman&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-3841.15" y="356.5" width="142.29" height="65" as="geometry" />
+          <mxGeometry x="-3825" y="280" width="142.29" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="hJPGuMUL_oSA_reoDNZH-15" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3675.9" y="684" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="hJPGuMUL_oSA_reoDNZH-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hJPGuMUL_oSA_reoDNZH-15">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="hJPGuMUL_oSA_reoDNZH-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hJPGuMUL_oSA_reoDNZH-15">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        <mxCell id="hJPGuMUL_oSA_reoDNZH-15" value="&lt;i&gt;BasePacmanDecorator&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3833.85" y="442" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hJPGuMUL_oSA_reoDNZH-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hJPGuMUL_oSA_reoDNZH-15">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
