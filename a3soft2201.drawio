@@ -1287,7 +1287,7 @@
           <mxGeometry y="26" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-109" value="SuperPelletFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-4610" y="295" width="230" height="50" as="geometry" />
+          <mxGeometry x="-4610" y="299" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8SsH_1PTJZZxKGDjBzMo-110" value="&lt;div&gt;- OFFSET: double = -8&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8SsH_1PTJZZxKGDjBzMo-109" vertex="1">
           <mxGeometry y="26" width="230" height="24" as="geometry" />
